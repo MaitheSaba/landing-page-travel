@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    padding-top: 160px;
+    background: url(https://i.ibb.co/vx5kNHC/Avi-o-shutterstock-255197383.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+body::after {
+    background: linear-gradient(90deg, rgba(0,0,0,0.8995973389355743) 5%, rgba(255,0,0,0) 48%, rgba(0,0,0,0.9164040616246498) 96%);
+}
+
+h1{
+    color: #000000;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+}
+h1 span{
+    color: #e605be;
+}
+h3{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: #000000;
+}
+a{
+    padding: 12px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 20px;
+    background-color: #e605be;
+    opacity: 1;
+}
